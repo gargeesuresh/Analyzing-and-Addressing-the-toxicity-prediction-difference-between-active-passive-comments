@@ -65,7 +65,24 @@ Namely,
      <p align="center">
        <img src="./img/ss4.PNG" alt="Perspective API" width="1000">
      </p>
-* Here is what a Sample API call to Perspective API looks like.
+As shown in the Datatbase, the difference in Toxicity scores for the very same sentences with different voice forms(active/passive) varies upto 30% in just this instance of  examples alone.
+* In order to maintain consistency over toxicity scores for different voices in sentences, we propose the following methods.
+     * **Minimum**
+     <p align="center">
+       <img src="./img/ss5.PNG" alt="Perspective API" width="1000">
+     </p>
+     * **Maximum**
+     <p align="center">
+       <img src="./img/ss6.PNG" alt="Perspective API" width="1000">
+     </p>
+     * **Average**
+      <p align="center">
+       <img src="./img/ss7.PNG" alt="Perspective API" width="1000">
+     </p>
+     * **Weighted Average with word count** 
+     <p align="center">
+       <img src="./img/ss8.PNG" alt="Perspective API" width="1000">
+     </p>
 ## References
 
 * [Perspective API](https://perspectiveapi.com/#/home)

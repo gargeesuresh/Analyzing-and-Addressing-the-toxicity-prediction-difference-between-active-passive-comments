@@ -23,13 +23,18 @@ Namely,
 
 ## Demonstrating with examples
 * Consider the set of comments under this YouTube [Video](https://www.youtube.com/watch?v=NMHmpB81RTc)
-     <p align="center">
-       <img src="./img/ss1.PNG" alt="Sample video" width="738">
-     </p>
-     <p align="center">
-       <img src="./img/ss2.PNG" alt="Sample comments" width="738">
-     </p>
-*
+          <p align="center">
+            <img src="./img/ss1.PNG" alt="Sample video" width="738">
+          </p>
+          <p align="center">
+            <img src="./img/ss2.PNG" alt="Sample comments" width="738">
+          </p>
+* Fetching these comments, generating their opposite voice forms(active->passive and vice-versa) using a Data-Augmentation library [TextGenie](https://github.com/hetpandya/textgenie), we create a database. 
+         <p align="center">
+            <img src="./img/ss3.PNG" alt="Dataframe1" width="738">
+          </p>
+* 
+          
 ## References
 
 * [Perspective API](https://perspectiveapi.com/#/home)

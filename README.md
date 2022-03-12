@@ -67,19 +67,19 @@ Namely,
      </p>
 As shown in the Datatbase, the difference in Toxicity scores for the very same sentences with different voice forms(active/passive) varies upto 30% in just this instance of  examples alone.
 * In order to maintain consistency over toxicity scores for different voices in sentences, we propose the following methods.
-     * **Minimum**
+     ***Minimum**
      <p align="center">
        <img src="./img/ss5.PNG" alt="Perspective API" width="700">
      </p>
-     * **Maximum**
+     ***Maximum**
      <p align="center">
        <img src="./img/ss6.PNG" alt="Perspective API" width="700">
      </p>
-     * **Average**
+     ***Average**
       <p align="center">
        <img src="./img/ss7.PNG" alt="Perspective API" width="700">
      </p>
-     * **Weighted Average with word count** 
+     ***Weighted Average with word count** 
      <p align="center">
        <img src="./img/ss8.PNG" alt="Perspective API" width="700">
      </p>

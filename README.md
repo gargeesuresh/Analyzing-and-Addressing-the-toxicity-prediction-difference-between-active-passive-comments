@@ -33,8 +33,39 @@ Namely,
          <p align="center">
             <img src="./img/ss3.PNG" alt="Dataframe1" width="738">
           </p>
-* 
-          
+* Here is what a Sample API call to Perspective API looks like. Using the `attributeScores[TOXICITY[SummaryScore[value]]]` we add the toxicity values to the active/passive voice comments in the database.
+    ```
+    {
+  "attributeScores": {
+    "TOXICITY": {
+      "spanScores": [
+        {
+          "begin": 0,
+          "end": 12,
+          "score": {
+            "value": 0.0558327,
+            "type": "PROBABILITY"
+          }
+        }
+      ],
+      "summaryScore": {
+        "value": 0.0558327,
+        "type": "PROBABILITY"
+      }
+    }
+  },
+  "languages": [
+    "en"
+  ],
+  "detectedLanguages": [
+    "en"
+  ]
+     }
+     ```
+     <p align="center">
+       <img src="./img/ss4.png" alt="Perspective API" width="738">
+     </p>
+* Here is what a Sample API call to Perspective API looks like.
 ## References
 
 * [Perspective API](https://perspectiveapi.com/#/home)

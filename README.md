@@ -63,7 +63,7 @@ Namely,
      }
      ```
      <p align="center">
-       <img src="./img/ss4.png" alt="Perspective API" width="738">
+       <img src="./img/ss4.PNG" alt="Perspective API" width="738">
      </p>
 * Here is what a Sample API call to Perspective API looks like.
 ## References

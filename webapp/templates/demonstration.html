@@ -1,1 +1,153 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title> DEMO APP </title>
+        <style>
+            h1 {text-align: center;}
+            p {text-align: center;}
+            .button {text-align: center;}
 
+            .l1 {
+                font-size: 1.1em;
+                color: #000000;
+                float: left;
+                width: 100%;
+                margin-left: 10px;
+                margin-right: 100px;
+
+
+            }
+
+            table, td {
+            text-align: center;
+         }
+
+            .l2 {
+                font-size: 1.1em;
+                color: #000000;
+                float: right;
+                padding-right: 25px;
+                padding-left: 10px;
+                width: 100%;
+            }
+
+            .center {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .text-center {
+                text-align: center;
+            }
+
+            .fixed{
+                font-size: 1.1em;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>DEMONSTRATION APP </h1>
+        <br>
+
+        <form action="{{url_for('getData')}}" method="POST" class="center">
+            <div class="l1" style="text-align: center;">
+                <label for="act">Active:</label><br>
+                </br>
+                <input type="text" id="active" name="active1" placeholder="Enter Active Voice Sentence:"><br>
+            </div>
+            <div class="l1" style="text-align: center;">
+                <label for="pass">Passive:</label><br>
+                <input type="text" id="passive" name="passive1" placeholder="Enter Passive Voice Sentence:" ><br><br>
+            </div>
+            <div style="text-align: center;">
+                <input type="submit" value="Submit">
+            </div>
+            
+        </form> 
+
+        <!-- <table class="center">
+            <tr>
+            <td>
+                <div class="l1">
+                <label>ACTIVE VOICE SENTENCE</label>
+                <br>
+                <br>
+                <input type="text" id="active" name="active1" placeholder="Enter Active Voice Sentence:" size="35"></input>
+                </div>
+            </td>
+            <td>
+                <div class="l2">
+                    <label>PASSIVE VOICE SENTENCE</label>
+                    <br>
+                    <br>
+                    <input type="text" id="passive" name="passive1" placeholder="Enter Passive Voice Sentence:" size="35"></input>
+                </div>
+            </td>
+            </tr>
+        </table> -->
+        
+        
+
+        <!-- <br>
+        <div class="text-center">
+          <button id="submit">SUBMIT</button>
+        </div> -->
+        
+
+        <p id="toxicities">TOXICITIES FROM PERSPECTIVE API </p>
+        <table class="center">
+        <tr>
+            <td>
+                <div class="l1">
+                    <output id="active_toxicity">Toxicity of Active Sentence</output>
+                    <p>{{data[0]}}</p>
+                </div>
+            </td>
+            <td>
+                <div class="l2">
+                    <output id="passive_toxicity">Toxicity of Passive Sentence</output>
+                    <p>{{data[1]}}</p>
+                </div>
+            </td>
+        </tr>
+        </table>
+        <br>
+        <table class="center">
+            <tr>
+                <td>
+                    <p id="difference">DIFFERENCE IN TOXICITIES FROM PERSPECTIVE API </p>
+                    <output id="diff_toxicities" class="fixed">Difference</output>
+                    <p>{{data[2]}}</p>
+                </td>
+            </tr>
+        
+        </table>
+        <br>
+        <div class="text-center">
+            <button id="fix">FIX</button>
+        </div>
+        <br>
+
+        <table class="center">
+            <tr>
+                <td>
+                    <div class="l1">
+                        <output id="fixed_active_toxicity">Fixed Active Toxicity</output>
+                        <p>{{data[3]}}</p>
+                    </div>
+                </td>
+                <td>
+                    <div class="l2">
+                        <output id="fixed_passive_toxicity">Fixed Passive Toxicity</output>
+                        <p>{{data[3]}}</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+       
+        
+
+    </body>
+
+</html>

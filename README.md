@@ -1,4 +1,4 @@
-# Analyzing and Addressing the toxicity prediction difference between active/passive comments in google's Perspective API
+# Analyzing and Addressing the toxicity prediction difference between different comments with same semantic meaning  in google's Perspective API
 
 <img src="./img/pr2.png" align="right"
      alt="Perspective API logo by google" width="120" height="120">

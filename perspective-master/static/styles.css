@@ -1,0 +1,152 @@
+
+body{
+  background-color: #f1f3fb !important; 
+}
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.button {
+  text-align: center;
+}
+
+.l1 {
+  font-size: 1.1em;
+  color: #000000;
+  float: left;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 100px;
+}
+
+table,
+td {
+  text-align: center;
+}
+
+.l2 {
+  font-size: 1.1em;
+  color: #000000;
+  float: right;
+  padding-right: 25px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fixed {
+  font-size: 1.1em;
+}
+.main-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+
+}
+.select-type{
+  float: right;
+  margin-bottom: 10px;
+}
+.voice-container{
+  
+}
+.form-group-container{
+  /* width:50%;
+  padding: 10px;  
+  height: 35%; */
+  padding: 10px;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 5px;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+}
+
+.labels{
+  width: 60%
+}
+
+.toxic-group-container{
+  /* width:50%;
+
+  height: 50%;
+   */
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.progress{
+  height: 10px;
+}
+.progress-bar{
+  background-color: #ee8c68;
+background-image: linear-gradient(315deg, #ee8c68 0%, #eb6b9d 74%);
+}
+
+.green-text{
+  color: rgb(109, 151, 109);
+}
+
+.btn-grad {background-image: linear-gradient(to right, #1D976C 0%, #93F9B9  51%, #1D976C  100%)}
+  .btn-grad {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+.hide{
+  display: none;
+}
+.hide-order{
+  display: none;
+}
+
+.active-li{
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+
+select option {
+  margin: 40px;
+  background: rgba(12, 9, 9, 0.24);
+  /* color: #fff; */
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+select  {
+  
+  background: rgba(219, 210, 210, 0.24);
+  /* color: #fff; */
+  text-shadow: 0 1px 0 rgba(194, 191, 191, 0.4);
+  border-radius:  5px;
+  
+}
